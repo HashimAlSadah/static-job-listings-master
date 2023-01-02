@@ -1,0 +1,10 @@
+@use"./var";
+
+.header_bg{
+    min-height: 160px;
+    background-image: url("../images/bg-header-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var.$desaturated-dark-cyan;
+    margin-bottom: 3em;
+}
